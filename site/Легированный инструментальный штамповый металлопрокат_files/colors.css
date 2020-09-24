@@ -1,0 +1,75 @@
+[class*="__link"] { /*# Ссылки */
+	color: #31485C;
+}
+.wrap_blue, .products, .rss { /*# Синие плашки */
+	background-color: #31485C;
+}
+.wrap_beige,  .p-box__item__unit, .p-info__box { /*# Серые плашки */
+	background-color: #ECF0F1;
+}
+.footer { /*# Подвал */
+	background-color: #ECF0F1;
+}
+.nav__link { /*# Пункты верхнего меню */ 
+	color:#FFFFFF;
+}
+.nav__link:hover { /*# Пункты верхнего меню при наведении */
+	color: #ECF0F1;
+}
+.btn-blue { /*# Синие кнопки */
+	color: #31485C;
+	background-color: #FE7322;
+}
+.btn-blue:hover, .call-back:hover { /*# Синие кнопки при наведении */
+	background-color: #FFB05F;
+}
+.btn-blue:active, .call-back:active { /*# Синие кнопки при нажатии */
+	background-color: #FE7525;
+}
+.btn-white { /*# Белые кнопки */
+	color: #31485C;
+	background-color: #FFFFFF;
+}
+.call-back { /*# Обратный звонок в шапке */
+	color: #FFFFFF;
+	background-color: #31485C;
+}
+.products__item { /*# Пункты меню каталога продукции */
+	border-left-color:#FE7525;
+	color: #FFFFFF;
+}
+.products__item:hover { /*# Пункты меню каталога продукции при наведении */
+	background-color: #FE7525;
+}
+.search__field,
+.rss__form__field { /*# Поиск и подписаться */
+	border-color: #FFFFFF !important;
+	color:#FFFFFF !important;
+}
+form input[type="text"], form input[type="password"], form input[type="date"], form input[type="email"], form input[type="number"], form input[type="tel"], form textarea { /*# Элементы ввода */
+	border-color: #C0C0C0;
+	color: #726F6E;
+}
+.nav__link:after { /*# Сепараторы в меню */
+	border-color:  #FE7525;
+}
+.social__toggle { /*# Блок facebook/vkontakte */
+	color: #FE7525;
+	border-color: #A3A6A7;
+}
+.social__toggle_active { /*# Блок facebook/vkontakte активный */	
+	color: #3B4147;
+}
+.slider__prev,
+.slider__next,
+.p-box__prev,
+.p-box__next { /*# Кнопки вперед назад */
+	background-color: #B9C4DE;
+	color:#FFFFFF;
+}
+.slider__slidenator__item { /*# Кружки на слайдере */
+	color:#FFFFFF;
+}
+.slider__item__content { /*# Текст в слайдере */
+	color: #FFFFFF;
+}
